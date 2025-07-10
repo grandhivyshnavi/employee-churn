@@ -60,7 +60,7 @@ def main():
         st.write(session_state['prediction1'])
 
     st.header("Chatbot")
-    df = pd.read_csv('C:/Users/vyshn/Documents/MTech Integrated/3rd_year/Sem-6/SPM/Project')
+    df = pd.read_csv('C:/Users/vyshn/Documents/MTech Integrated/3rd_year/Sem-6/SPM/Project/Employee Attrition.csv')
     #df = pd.read_csv('C:/Users/vyshn/OneDrive - vit.ac.in/Documents/MTech Integrated/3rd_year/Sem-6/SPM/Project/Employee Attrition.csv')
     scenario = st.text_area('Enter the scenario:')
     input_data = {}
